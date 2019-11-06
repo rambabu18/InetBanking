@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "IBanking1">
+
+<listeners>
+
+<listener class-name="com.IBanking.Utilities.Report"/>
+
+</listeners>
+
+
+
+<test name="BankingApp Test">
+
+<parameter name="browser" value="safari"/>
+
+
+<classes>
+
+<class name="com.IBanking.Testcases.TC_LoginPage_001" />
+
+
+</classes>
+
+</test>
+
+
+
+</suite>
